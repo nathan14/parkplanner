@@ -1,0 +1,93 @@
+#weather, #park-load {
+  background-color: transparent;
+  border: none;
+}
+
+#park-load-container {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn-results {
+  padding: 3px;
+  margin-right: 4px;
+  background-color: transparent;
+}
+
+.social-top {
+  position: absolute;
+  left: 0;
+}
+
+.btn-social {
+  background-color: transparent;
+  padding-right: 0;
+  padding-top: 0;
+  font-size: 28px;
+}
+
+.btn-social-fb {
+  color: #425F9C;
+}
+
+.btn-social-gp {
+  color: #DD4B38;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.btn-social-fb:hover {
+  color: #445C90;
+}
+
+.btn-social-gp:hover {
+  color: #D83C25;
+}
+
+@media (min-width: 768px) {
+  .list-group-item-heading {
+	font-weight: bold;
+	color: #E35885;
+  }
+  
+  .list-group-item {
+	height: 197px;
+  }
+  
+  .list-group-item img {
+	float: right;
+	margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 27px;
+  }
+  
+  .result-details {
+    padding-left: 15px;
+  }
+  
+  #results_parks {
+    margin-top: 50px;
+  }
+    
+  .list-group-item-heading {
+	font-weight: bold;
+	color: #E35885;
+	font-size: 1.3em;
+  }
+  
+  .list-group-item {
+	height: 153px;
+  }
+  
+  .list-group-item img {
+	float: right;
+	margin-left: 15px;
+  }	
+}

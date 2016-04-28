@@ -1,0 +1,56 @@
+body {
+  padding-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-group-item {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+  border-radius: 6px;
+  height: auto;
+}
+
+.bottom-btns {
+  margin-top: 0;
+}
+
+.list-group-item-heading {
+  font-weight: bold;
+  color: inherit;
+}
+
+.list-group-item-fb {
+  background-color: #425F9C;
+  color: white;
+}
+
+@media (max-width: 768px) {  
+  #back-btn {
+  	margin-left: 5px;
+  }
+  
+  .users-area {
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	margin: -30px;
+	margin-top: -20px;
+  }
+
+  .info-bar {
+    margin-bottom: 15px;
+    margin-top: 2px;
+  }
+
+  .bottom-btns {
+    margin-bottom:  10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-group-item {
+    min-height: 80px;
+  }
+}

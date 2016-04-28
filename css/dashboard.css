@@ -1,0 +1,41 @@
+body {
+  padding-bottom: 0;
+}
+
+.dashboard-area {
+  background-color: white;
+  background: rgba(255, 255, 255, .7);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.chart {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#extreme-level {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+canvas {
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-area {
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	column-fill: auto;
+	padding: 15px;
+	margin: -15px;
+	margin-top: -20px;
+	padding-bottom: 90px;
+  }
+}

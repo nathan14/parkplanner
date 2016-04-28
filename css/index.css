@@ -1,0 +1,26 @@
+#back-btn {
+  display: none !important;
+}
+
+#datepicker, #datepickerEN {
+  background-color: #fff;
+  cursor: default;
+  display: none;
+}
+
+.index-icon {
+  font-size: 3.4em;
+  color: #E80074;
+}
+
+.index-div {
+  text-align: center;
+}
+
+.index-div-container {
+  margin-bottom:: 235px
+}
+
+.lang-choose {
+  margin-right: -25px;
+}

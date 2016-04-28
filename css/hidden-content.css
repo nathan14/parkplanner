@@ -1,0 +1,36 @@
+#hidden-content {
+  display: none;
+}
+
+#login-message {
+  text-align: center;
+  display: none;
+}
+
+#login-message-icon {
+  font-size: 5em;
+  color: #4D7B9D;
+  margin-bottom: 8px;
+}
+
+.btn-pink-form {
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  #login-message {
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	padding: 15px;
+	margin: -15px;
+	margin-top: -20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #login-message {
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	padding: 30px;
+  }
+}

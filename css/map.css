@@ -1,0 +1,38 @@
+body {
+  padding-bottom: 0;
+}
+
+#map-container {
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.maps {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .h1-modified {
+  	position: relative;
+  	margin-right: 30px;
+  	margin-top: 5px;
+  	padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+
+  #maps-header {
+	  background-color: white;
+    background: rgba(255, 255, 255, .7);
+	  padding-left: 20px;
+  	margin-bottom: -15px;
+  	padding-top: 15px;
+  }
+
+  #login-message {
+    padding-top: 15px;
+  }
+
+
+}

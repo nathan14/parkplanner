@@ -1,0 +1,96 @@
+@font-face {
+  font-family:'ClimaconsRegular';
+  src: url('fonts/climacons-font/climacons-webfont.eot');
+  src: url('fonts/climacons-font/climacons-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('fonts/climacons-font/climacons-webfont.woff') format('woff'),
+	   url('fonts/climacons-font/climacons-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#login-message {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  padding-bottom:  20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.forecast-icon {
+  font-size: 5em;
+  float: right;
+  padding: 8px;
+  padding-right: 10px;
+  padding-left: 25px;
+  text-align: center;
+  min-width: 100px;
+  color: #4D7B9D;
+}
+
+.filters {
+  padding-bottom: 10px;
+}
+
+.list-group-item {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+  border-radius: 6px;
+}
+
+.list-group-item-heading {
+  font-weight: bold;
+}
+
+.yellow {
+  color: #FF884F;
+}
+
+.grey {
+  color: grey;
+}
+
+.dark-grey {
+  color: #838383;
+}
+
+.blue {
+  color: #0078F0;
+}
+
+.dark-blue {
+  color: #004080;
+}
+
+.aqua {
+  color: #006C87;
+}
+
+.red {
+  color: #FF4040;
+}
+
+.dark-red {
+  color: #870E00;
+}
+  
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-group-item {
+    min-height: 125px;
+  }
+  
+  .forecast-icon {
+    position: absolute;
+	bottom: -20px;
+	left: -10px;
+  }
+}

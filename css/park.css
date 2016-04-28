@@ -1,0 +1,32 @@
+#route li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.route-heading {
+  font-size: 1.3em;
+}
+
+.route-heading:hover {
+  text-decoration: none;
+}
+
+.btn-cancel {
+  float: left;
+}
+
+#send-success {
+  padding-top: 15px;
+}
+
+.img-responsive {
+  margin-right: 0px;
+}
+
+#sendto-form-status {
+  color: #900;
+}
+
+#buttons {
+  display: none;
+}
